@@ -2,7 +2,7 @@
 
 .body{
     background-image: url(/imagenes/multiracial-grupo-joven-gente-toma-selfie_1139-1032.webp);
-    opacity: 70%;
+    opacity: 80%;
 }
 .card{
     display: flex;
@@ -12,7 +12,7 @@
     margin-top:10%;
     border-color:black;
     width:500px !important;
-    height: 200px !important;
+    height: 400px !important;
     color: rgb(2, 2, 2);
    font-family: 'Josefin Sans', sans-serif !important;
   
@@ -32,6 +32,13 @@
 
 }
 .btnGood, .btnBad, .btnRegular{
-    margin-top: 55% !important;
+    margin-top: 25% !important;
+    opacity: 0;
+    color: black !important;
+    
 }
+.card-text{
+    margin-top: 10%;
+}
+
 
