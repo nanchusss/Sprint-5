@@ -32,28 +32,34 @@ const reportAcudits = [];
 //rate según smile.
 function noteJoke1() {
   console.log(joke1);
+  let date = new Date();
+  date.toISOString();
   reportAcudits.push({
     joke: joke1.textContent,
     rate: 1,
-    date: new Date(),
+    date: date,
   });
 
   console.log(reportAcudits);
 }
 function noteJoke2() {
+  let date = new Date();
+  date.toISOString();
   reportAcudits.push({
     joke: joke1.textContent,
     rate: 2,
-    date: new Date(),
+    date: date,
   });
 
   console.log(reportAcudits);
 }
 function noteJoke3() {
+  let date = new Date();
+  date.toISOString();
   reportAcudits.push({
     joke: joke1.textContent,
     rate: 3,
-    date: new Date(),
+    date: date,
   });
 
   console.log(reportAcudits);
