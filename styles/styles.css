@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+.body{
+    background-image: url(/imagenes/multiracial-grupo-joven-gente-toma-selfie_1139-1032.webp);
+    opacity: 70%;
+}
+.card{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 32%;
+    margin-top:10%;
+    border-color:black;
+    width:500px !important;
+    height: 200px !important;
+    color: rgb(2, 2, 2);
+   font-family: 'Josefin Sans', sans-serif !important;
+  
+}
+.btn{
+    background-image:linear-gradient(hsl(185, 64%, 75%), hsl(214, 46%, 53%)) !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    border-color: white !important;
+    width: 40%;
+}
+@media screen and(min-width:768px){
+    .card{
+      color:hsl(187, 48%, 42%) !important
+    }
+    
+
+}
+
+    
+
