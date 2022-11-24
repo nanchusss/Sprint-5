@@ -14,7 +14,7 @@ async function handleClick() {
   //También estoy segura de que no era necesario hacer una funcón por cada botón con smile, Línea 42 de este código, alguna sugerencia :) ?
   reportAcudits.push({
     joke: joke1.textContent,
-    rate,
+    rate: 1,
     date: new Date(),
   });
   console.log(reportAcudits);
