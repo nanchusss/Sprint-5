@@ -22,6 +22,7 @@
     font-family: 'Josefin Sans', sans-serif !important;
     border-color: white !important;
     width: 40%;
+    margin-bottom: 5%;
 }
 @media screen and(min-width:768px){
     .card{
@@ -30,6 +31,7 @@
     
 
 }
-
-    
+.btnGood, .btnBad, .btnRegular{
+    margin-top: 55% !important;
+}
 
