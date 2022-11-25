@@ -10,7 +10,6 @@ async function handleClick() {
   const { joke } = await fetchJoke();
   joke1.textContent = joke;
   console.log(joke);
-  btns.innerHTML;
 }
 //esta función se llama abajo sin paréntesis handleClick.
 btnNext.addEventListener("click", handleClick);

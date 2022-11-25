@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 
 .body{
-    background-image: url(/imagenes/multiracial-grupo-joven-gente-toma-selfie_1139-1032.webp);
+    background-image: url(/imagenes/circle-scatter-haikei.svg);
     opacity: 80%;
 }
 .card{
@@ -40,6 +40,34 @@
 }
 .card-text{
     margin-top: 10%;
+}
+
+.card1{
+    width: 200px !important; 
+    height: 200px !important;
+    background-color:rgb(205, 200, 200)
+}
+
+.contenedorNan{
+    width:380px;
+    font-family: 'Josefin Sans', sans-serif !important;
+    display:flex !important;
+    flex-direction: column !important;
+    margin-top: -170% !important;
+    margin-left: 10%;
+    
+
+}
+.name{
+    font-size: 20px;
+    font-weight: 900;
+}
+.temperature{
+    font-size: 40px;
+}
+.description, .pressure{
+    font-style:oblique;
+    font-weight: 400;
 }
 
 
