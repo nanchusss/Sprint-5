@@ -1,10 +1,12 @@
 const key = "7257c98dfe4ef291452548eaa37439d8";
 const ciudad = "Barcelona";
+const idioma = "sp, es";
+const mesure = "units=metric";
 
 const fetchData = async () => {
   try {
     const respuesta = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${key}`,
+      `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${key}&units=metric&lang=${idioma}`,
       {
         headers: {
           Accept: "application/json",
@@ -25,20 +27,16 @@ const fetchData = async () => {
       let temp = temperatura.temp;
       console.log(temp);
       let presion = temperatura.pressure;
-      //   const result1 = datos.main.forEach((a) => {
-      //     console.log(a);
-      //     temperatura += `
-      //       <div class = "b">
-      //       <h2 class = "temp"> ${a.temp}</h2>
-      //       </div>`;
-      //   });
-      //  console.log(temperatura);
+
       const result = datos.weather.forEach((a) => {
         console.log(a.description);
+        console.log(a.icon);
+        //Aquí en a1 iría una etiqueta con el ícono para mostrarlo por pantalla.
         a1 += `
 		<div class="a"> 
-		<h1 class= "name" >${name}</h1>		
-		<h4 class= "temperature" > ${temp} Grades</h4>
+        
+		 <h1 class= "name" >${name}</h1>		
+		<h4 class= "temperature" > ${temp} C°</h4>
         <h4 class= "description" >${a.description}</h4>
 		<h4 class= "pressure" >Pressure : ${presion}</h4>
 		</div>  `;

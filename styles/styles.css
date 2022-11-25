@@ -1,29 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
 
 .body{
-    background-image: url(/imagenes/circle-scatter-haikei.svg);
-    opacity: 80%;
+    background-color: white !important;
+    background-image: url(/imagenes/fondo\ 1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 30%;
+}
+
+#cardtotal{
+    margin-top: 10%;
 }
 .card{
-    display: flex;
+    background-image: url(/imagenes/fondo\ card.svg) !important;
+    background-size: 80%;
+   background-repeat:no-repeat;
     align-items: center;
     text-align: center;
     margin-left: 32%;
-    margin-top:10%;
-    border-color:black;
-    
-    width:500px !important;
-    height: 370px !important;
+    margin-top:8%;
+    border-color: rgb(21, 20, 20) !important;
+    width:400px !important;
+    height: 270px !important;
     color: rgb(2, 2, 2);
    font-family: 'Josefin Sans', sans-serif !important;
   
 }
+.card-body{
+    max-width: 400px;
+    width: 300px;
+    height: 500px;
+    margin-left: -10%;
+    border-color:black !
+}
 .btn{
-    background-image:linear-gradient(hsl(185, 64%, 75%), hsl(214, 46%, 53%)) !important;
+    background-color: yellow !important;
     font-family: 'Josefin Sans', sans-serif !important;
     border-color: white !important;
     width: 40%;
-    margin-bottom: 5%;
+    margin-top: 0%;
+    margin-bottom: 2%;
 }
 @media screen and(min-width:768px){
     .card{
@@ -33,9 +49,12 @@
 
 }
 .btnGood, .btnBad, .btnRegular{
-    margin-top: 25% !important;
+    
+    margin-top: 15% !important;
+    margin-bottom: 0%;
     opacity: 0;
     color: black !important;
+    
     
 }
 .card-text{
@@ -47,27 +66,38 @@
     height: 200px !important;
     background-color:rgb(205, 200, 200)
 }
-
-.contenedorNan{
-    width:380px;
+/* Weather App */
+.a{
+   
+    background-attachment: fixed;
+    background-size: 350px;
+    width:340px !important;
     font-family: 'Josefin Sans', sans-serif !important;
     display:flex !important;
     flex-direction: column !important;
-    margin-top: -170% !important;
+    margin-top: -240% !important;
     margin-left: 10%;
     
 
+}
+.contenedor{
+    margin-top: 3% !important;
+    
+    margin-right: 10% !important;
+    align-items: center;
 }
 .name{
     font-size: 20px;
     font-weight: 900;
 }
 .temperature{
-    font-size: 40px;
+    font-size: 20px;
 }
 .description, .pressure{
     font-style:oblique;
     font-weight: 400;
+    font-size: 15px;
 }
+
 
 

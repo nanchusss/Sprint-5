@@ -17,11 +17,57 @@
 
 <body class="body justify-content-center">
 
-    <div class="card d-flex rounded align-content-center text-center" style="width: 18rem;">
+    <div class="container d-flex align-content-center text-center" id="cardtotal" style="width: 28rem;">
 
-        <div class="card-body">
-            <h5 class="card-title fw-bold mt-3"> Random Joke </h5>
-            <p class="card-text" id="joke">Click and get a random Joke!</p>
+        <div class="card-body p-1 m-3">
+            <div class="container p-2">
+                <h5 class="card-title fw-bold mt-3"> Random Joke </h5>
+                <p class="card-text" id="joke">Click and get a random Joke!</p>
+                <div class="row d-table-row cols-md-1 w-100 text-center align-content-center " id="botones">
+                    <!-- <i data-feather="circle"></i> -->
+                    <a href="#1" class="btnBad btn-primary" id="btnBad">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-frown">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M16 16s-1.5-2-4-2-4 2-4 2"></path>
+                            <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                            <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                        </svg>
+
+                    </a>
+                    <a href="#2" class="btnRegular btn-primary" id="btnRegular">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-meh m-3">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="8" y1="15" x2="16" y2="15"></line>
+                            <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                            <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                        </svg>
+
+                    </a>
+                    <a href="#3" class="btnGood btn-primary" id="btnGood">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-smile">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                            <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                            <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                        </svg>
+
+
+                    </a>
+
+
+
+                </div>
+
+            </div>
+
 
 
 
@@ -72,8 +118,9 @@
     </div>
 
     <div class="contenedor rounded-3" id="contenedor" style="width: 18rem;">
-        <img class="card-img-top w-25 h-25" src="/imagenes/tiempo-y-clima-imagen-animada-0004.gif" alt="Card image cap">
+        <!-- <img class="card-img-top w-25 h-25" src="/imagenes/tiempo-y-clima-imagen-animada-0004.gif" alt="Card image cap"> -->
         <div class="contenedorNan" id="contenedorNan">
+            <div class="a" id=" a"> </div>
 
         </div>
     </div>
