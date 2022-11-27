@@ -50,7 +50,7 @@ const fetchData = async () => {
     } else if (respuesta.status === 401) {
       console.log("Error: " + respuesta.status);
     } else if (respuesta.status === 404) {
-      console.log("Error, película no encontrada");
+      console.log("Error, chiste no encontrada");
     } else {
       console.log("Error desconocido");
     }
