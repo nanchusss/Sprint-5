@@ -34,7 +34,7 @@ const fetchData = async () => {
         //Aquí en a1 iría una etiqueta con el ícono para mostrarlo por pantalla.
         a1 += `
 		<div class="a"> 
-        
+        <img src="${a.icon}" alt="">
 		 <h1 class= "name" >${name}</h1>		
 		<h4 class= "temperature" > ${temp} C°</h4>
         <h4 class= "description" >${a.description}</h4>
