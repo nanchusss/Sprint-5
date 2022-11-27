@@ -11,21 +11,16 @@
 #cardtotal{
     margin-top: 10%;
 }
-.card{
-    background-image: url(/imagenes/fondo\ card.svg) !important;
-    background-size: 80%;
-   background-repeat:no-repeat;
-    align-items: center;
-    text-align: center;
-    margin-left: 32%;
-    margin-top:8%;
-    border-color: rgb(21, 20, 20) !important;
-    width:400px !important;
-    height: 270px !important;
-    color: rgb(2, 2, 2);
-   font-family: 'Josefin Sans', sans-serif !important;
-  
+.card-title{
+    font-size:25px !important;
 }
+.card-title, .card-text{
+color: white;
+}
+.card-text{
+    font-family: 'Josefin Sans',sans-serif;
+}
+
 .card-body{
     max-width: 400px;
     width: 300px;
@@ -37,6 +32,7 @@
     background-color: yellow !important;
     font-family: 'Josefin Sans', sans-serif !important;
     border-color: white !important;
+    color: black !important;
     width: 40%;
     margin-top: 0%;
     margin-bottom: 2%;
@@ -48,8 +44,12 @@
     
 
 }
+
+
 .btnGood, .btnBad, .btnRegular{
     
+    flex-direction: row !important;
+   
     margin-top: 15% !important;
     margin-bottom: 0%;
     opacity: 0;
@@ -61,11 +61,7 @@
     margin-top: 10%;
 }
 
-.card1{
-    width: 200px !important; 
-    height: 200px !important;
-    background-color:rgb(205, 200, 200)
-}
+
 /* Weather App */
 .a{
    
@@ -81,7 +77,6 @@
 }
 .contenedor{
     margin-top: 3% !important;
-    
     margin-right: 10% !important;
     align-items: center;
 }
