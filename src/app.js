@@ -95,6 +95,12 @@ let im = [
     img: "/imagenes/fondo7.svg",
   },
   {
+    img: "/imagenes/fondo8.svg",
+  },
+  {
+    img: "/imagenes/fondo9.svg",
+  },
+  {
     img: "/imagenes/Fondo Definitivo.svg.svg",
   },
 ];

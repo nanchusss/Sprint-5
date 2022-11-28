@@ -14,13 +14,14 @@
     margin-top: 10%;
 }
 .card-title{
-    font-size:25px !important;
+    font-size:30px !important;
 }
 .card-title, .card-text{
 color: white;
 }
 .card-text{
     font-family: 'Josefin Sans',sans-serif;
+    font-size: 20px;
 }
 #joke{
     margin-left: 36% !important;
@@ -78,36 +79,33 @@ color: white;
 
 
 /* Weather App */
-.a{
+#a{
    
     background-attachment: fixed;
     width:340px !important;
     font-family: 'Josefin Sans', sans-serif !important;
-    display:flex !important;
+    display:inline-flex !important;
     flex-direction: row ;
-    margin-top: -240% !important;
-    margin-left: 10%;
+    margin-left:-3% !important;
+    align-items: flex-start;
+    font-size: 10px !important;
+    margin-top: -130% !important;
+   
     
 
 }
-.contenedor{
-    
-    margin-top: 17% !important;
-    margin-right: 10% !important;
-    align-items: center;
+#logo{
+    width: 200px !important;
+    height: 200px !important;
+    margin: 5% !important;
 }
-.name{
-    font-size: 20px;
-    font-weight: 900;
-}
-.temperature{
-    font-size: 20px;
-}
-.description, .pressure{
-    font-style:oblique;
-    font-weight: 400;
-    font-size: 15px;
-}
+
+
+
+
+
+
+
 
 
 
