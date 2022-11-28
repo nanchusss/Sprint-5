@@ -85,6 +85,18 @@ let im = [
   {
     img: "/imagenes/fondo4.svg",
   },
+  {
+    img: "/imagenes/fondo5.svg",
+  },
+  {
+    img: "/imagenes/fondo6.svg",
+  },
+  {
+    img: "/imagenes/fondo7.svg",
+  },
+  {
+    img: "/imagenes/Fondo Definitivo.svg.svg",
+  },
 ];
 var a = document.getElementById(".btnNext");
 var b = document.getElementById(".body");
