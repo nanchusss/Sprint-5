@@ -73,3 +73,28 @@ function showDiv() {
   document.getElementById("btnRegular").style.opacity = "100";
   document.getElementById("btnGood").style.opacity = "100";
 }
+
+let i = 0;
+let im = [
+  {
+    img: "/imagenes/fondo2.svg",
+  },
+  {
+    img: "/imagenes/fondo3.svg",
+  },
+  {
+    img: "/imagenes/fondo4.svg",
+  },
+];
+var a = document.getElementById(".btnNext");
+var b = document.getElementById(".body");
+//
+
+function next() {
+  console.log(i);
+  document.getElementById("body").style.backgroundImage = `url(${im[i].img})`;
+  i++;
+  if (i == im.length) {
+    i = 0;
+  }
+}

@@ -3,9 +3,11 @@
 .body{
     background-color: white !important;
     background-image: url(/imagenes/Fondo\ Definitivo.svg);
-    background-size: 90%;
+    background-size: 90% !important;
     background-repeat: no-repeat;
-    background-position: 30%;
+    background-position-x: center;
+    background-position-y: 15%;
+    
 }
 
 #cardtotal{
@@ -20,22 +22,32 @@ color: white;
 .card-text{
     font-family: 'Josefin Sans',sans-serif;
 }
+#joke{
+    margin-left: 36% !important;
+    width: 360px !important;
+    margin-top: 5% !important;
+}
 
 .card-body{
-    max-width: 400px;
-    width: 300px;
-    height: 500px;
-    margin-left: -10%;
+   margin-top: 5%;
+    width: 200px !important;
+    height: auto !important;;
     border-color:black !
+}
+#btn11{
+    margin-left: 32% !important;
+    margin-bottom: 3% !important;
+    width: 500px !important;
+    height:100px !important;
 }
 .btn{
     background-color: yellow !important;
     font-family: 'Josefin Sans', sans-serif !important;
     border-color: white !important;
     color: black !important;
-    width: 40%;
+    width: 20%;
     margin-top: 0%;
-    margin-bottom: 2%;
+    
 }
 @media screen and(min-width:768px){
     .card{
@@ -46,12 +58,15 @@ color: white;
 }
 
 
+.botones{
+    width:600px !important;
+}
 .btnGood, .btnBad, .btnRegular{
     
-    flex-direction: row !important;
    
+    width: 100px !important;
     margin-top: 15% !important;
-    margin-bottom: 0%;
+    
     opacity: 0;
     color: black !important;
     
@@ -76,7 +91,8 @@ color: white;
 
 }
 .contenedor{
-    margin-top: 3% !important;
+    
+    margin-top: 17% !important;
     margin-right: 10% !important;
     align-items: center;
 }
